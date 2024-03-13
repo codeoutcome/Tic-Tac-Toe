@@ -1,4 +1,9 @@
-export default function Board() {
+/**
+ * Renders a board with 9 buttons arranged in a 3x3 grid.
+ * Each button represents a square on the board.
+ * @returns {JSX.Element} The rendered board component.
+ */
+export default function Boardgit () {
   return (
     <>
       <div className="board-row">
